@@ -1,6 +1,6 @@
-# 🌙 Islamic Quote Generator
+# 🌙Quote Generator
 
-The **Islamic Quote Generator** is a modern web app that displays inspiring Islamic quotes from the **Qur'an** and authentic **Hadiths**, based on user-selected topics like determination, hope, faith, and more.
+The **Quote Generator** is a modern web app that displays inspiring Islamic quotes from the **Qur'an** and authentic **Hadiths**, based on user-selected topics like determination, hope, faith, and more.
 
 Built using **Next.js (App Router)**, **Tailwind CSS**, and **ShadCN UI**, this app provides a fast, responsive, and elegant user experience. It's fully deployed on **Vercel** with GitHub integration.
 
