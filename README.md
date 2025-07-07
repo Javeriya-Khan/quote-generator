@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌙 Islamic Quote Generator
 
-## Getting Started
+The **Islamic Quote Generator** is a modern web app that displays inspiring Islamic quotes from the **Qur'an** and authentic **Hadiths**, based on user-selected topics like determination, hope, faith, and more.
 
-First, run the development server:
+Built using **Next.js (App Router)**, **Tailwind CSS**, and **ShadCN UI**, this app provides a fast, responsive, and elegant user experience. It's fully deployed on **Vercel** with GitHub integration.
+
+---
+
+## 🔗 Live Demo
+
+🌐 [View the App on Vercel](https://vercel.com/javeriya-khans-projects/quote-generator/6ejsaJunmN7srT4z46MeGVKxea7N)
+
+---
+
+## ✨ Features
+
+- Select a topic or enter your own to get 3 relevant quotes
+- Quotes come from Quran and Hadith with proper references
+- Responsive layout with smooth UI and animations
+- Tags for quick access to common topics
+- Styled with Tailwind CSS and ShadCN UI
+- Hosted on Vercel with GitHub auto-deployment
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + ShadCN UI
+- **Hosting:** Vercel
+- **Version Control:** Git + GitHub
+
+---
+
+## 📁 Project Structure
+
+nexium-javeriyakhan-assignment1/
+├── app/ # Main pages (page.tsx, styles)
+├── components/ # Reusable UI components
+│ └── QuoteCard.tsx
+├── lib/ # Quotes data file
+│ └── quotes.ts
+├── public/ # Public assets
+├── tailwind.config.ts # Tailwind config
+├── tsconfig.json # TypeScript config
+└── package.json
+
+## 🚀 Run Locally
 
 ```bash
+git clone https://github.com/Javeriya-Khan/quote-generator.git
+cd quote-generator
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit: http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📜 License & Credits
+💬 Quotes sourced from the Quran and authentic Hadiths
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🤝 Built by Javeriya Khan
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📚 Free to use for personal and educational purposes
 
-## Learn More
+yaml
+Copy
+Edit
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Would you like me to:
+- Add this file to your GitHub repo?
+- Generate a downloadable `.md` file for upload?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Just let me know ✅
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
